@@ -21,11 +21,15 @@ if [ -d $HOME/.sources ]; then
         . $i
       done
 fi
+
+###### Golang Related ######
+export GOPATH=~
+PATH=$PATH:${GOPATH}/bin
+
 ###### Docker Stuff ######
 export GID=$( id -g )
 
 ###### SSH Agent ######
-
 ##### SSH_Agent ENV Variables #####
 SSH_AUTH_SOCK=/tmp/ssh-Bf4EdgGyL0vf/agent.3875; export SSH_AUTH_SOCK;
 SSH_AGENT_PID=3876; export SSH_AGENT_PID;
@@ -35,8 +39,6 @@ HISTFILESIZE=4000000
 HISTSIZE=500000
 export HISTSIZE HISTFILSIZE
 
-
-###### Export Everything Below This Line to NIS ######
 if [ "x${TMUX}" != 'x' ]
 then
   export TERM='screen-256color'
