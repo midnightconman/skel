@@ -5,6 +5,9 @@
 # Failure to provide them will cause Fluxbox not to start.
 
 
+# Source Xresources
+xrdb -merge ~/.Xresources
+
 # Change displays to not mirrored
 xrandr --output DVI-1 --mode 1920x1200 --left-of DVI-0
 
@@ -27,8 +30,15 @@ nm-applet &
 #pulseaudio &
 pa-applet &
 
+# Open two terminal windows
+urxvt -title 'Right' &
+urxvt -title 'Left' &
+
 # Keepassx
-#keepassx &
+keepassx &
+
+# Pidgin
+pidgin &
 
 # Clipboard Manager Applet
 #clipit &

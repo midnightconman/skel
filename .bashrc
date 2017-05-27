@@ -1,7 +1,5 @@
 # .bashrc
 
-[[ "$-" != *i* ]] && return
-
 ###### Environment General Settings ######
 umask 027
 
