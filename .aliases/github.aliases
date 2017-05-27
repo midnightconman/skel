@@ -1,0 +1,4 @@
+alias gits='git status'
+alias gitdh='git diff HEAD'
+alias gitcm='git commit -m'
+alias gitb='git branch'
