@@ -7,7 +7,7 @@ umask 027
 
 # Add ALL alias files from .aliases 
 if [ -d $HOME/.aliases ]; then
-  for i in $( find -H $HOME/.aliases -maxdepth 1 -type f )
+  for i in $( find -H $HOME/.aliases -maxdepth 1 \( -type f -o -type l \) )
     do
       . $i
     done
