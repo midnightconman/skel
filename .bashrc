@@ -56,7 +56,3 @@ set -o vi
 export SVN_EDITOR=vi
 export EDITOR=vi
 
-# Set readable ls colors
-LS_COLORS='di=01;94'
-export LS_COLORS
-

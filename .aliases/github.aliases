@@ -1,4 +1,5 @@
 alias gits='git status'
-alias gitdh='git diff HEAD'
-alias gitcm='git commit -m'
 alias gitb='git branch'
+alias gitdh='git diff HEAD'
+alias gitco='git checkout'
+alias gitp='git pull'
