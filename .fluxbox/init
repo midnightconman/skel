@@ -58,7 +58,7 @@ session.screen0.autoRaise:	true
 session.screen0.workspaceNames:	Terminals, Browsers, Workspace 3, Communications,
 session.screen0.colPlacementDirection:	TopToBottom
 session.autoRaiseDelay:	250
-session.styleFile:	/usr/share/fluxbox/styles/manjaro-flux
+session.styleFile:	~/.fluxbox/styles/manjaro-flux
 session.doubleClickInterval:	250
 session.forcePseudoTransparency:	false
 session.slitlistFile:	~/.fluxbox/slitlist
