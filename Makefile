@@ -1,6 +1,6 @@
 
 ALL_LINKS := .Xresources .aliases .bash_profile .bashrc .dir_colors .dmenurc .dmrc .fluxbox .gtkrc-2.0 .sources .tmux.conf .vim .vimrc .xinitrc .xprofile .xscreensaver
-ALL_APPS := xorg-server xorg-apps xorg-xinit fluxbox xscreensaver docker rxvt-unicode cantarell-fonts
+ALL_APPS := xorg-server xorg-apps xorg-xinit fluxbox xscreensaver docker rxvt-unicode cantarell-fonts compton feh
 
 all: all-links install
 

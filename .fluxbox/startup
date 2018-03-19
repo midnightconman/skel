@@ -20,11 +20,12 @@ xscreensaver -no-splash &
 #/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Wallpaper Setter
-nitrogen --restore &
+#nitrogen --restore &
+feh --bg-scale ~/.flux/backgrounds/Manjaro_ST3_one.png
 compton &
 
 # Network Manager
-nm-applet &
+#nm-applet &
 
 # Pulse Audio
 #pulseaudio &
@@ -49,9 +50,6 @@ pidgin &
 #pamac-tray &
 #plank &
 # sbxkb &   # keyboard layout switcher for the tray
-
-# exec is for starting Fluxbox itself, do not put an ampersand (&) after this or Fluxbox will exit immediately.
-# exec /usr/bin/fluxbox
 
 # or if you want to keep a log, uncomment the below command and comment out the above command:
 exec /usr/bin/fluxbox -log ~/.fluxbox/log
