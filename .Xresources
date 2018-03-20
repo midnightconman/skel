@@ -1,11 +1,10 @@
 XTerm*background: #ffffff
 XTerm*foreground: #1f1f1f
 XTerm*reverseVideo: on
-XTerm*faceName: Terminus:size=11:antialias=true
+!XTerm*faceName: Terminus:size=11:antialias=true
+XTerm*faceName:xft:Inconsolata-g:size=11:antialias=true:style=regula
 XTerm*selectToClipboard: true
-XTerm*termName:         xterm-256color
-
-!Xft.hintstyle:          hintfull
+XTerm*termName: xterm-256color
 
 Xft.dpi: 96
 Xft.autohint: false
@@ -31,7 +30,12 @@ URxvt.transparent: true
 URxvt.tintColor: gray12
 URxvt.shading: 112
 URxvt.skipScroll: true
+URxvt.jumpScroll: true
+URxvt.termName: rxvt-unicode
 
+!URxvt.color11: S_purple // dev color, normally yellow
+URxvt.color12: #c560ff // directory color
+!
 ! -- urxvt color settings --!
 !URxvt*color0:  #000000 // black
 !URxvt*color1:  #B40000 // red
