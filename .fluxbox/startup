@@ -4,7 +4,6 @@
 # In the below commands the ampersand symbol (&) is required on all applications that do not terminate immediately.
 # Failure to provide them will cause Fluxbox not to start.
 
-
 # Source Xresources
 xrdb -merge ~/.Xresources
 
@@ -17,8 +16,6 @@ xset r rate 170 55
 # Run xscreensaver in the background
 xscreensaver -no-splash &
 
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-
 # Wallpaper Setter
 feh --bg-scale ~/.fluxbox/backgrounds/Manjaro_ST3_one.png
 compton &
@@ -30,10 +27,6 @@ compton &
 #pulseaudio &
 #pa-applet &
 
-# Open two terminal windows
-urxvt -title 'Right' &
-urxvt -title 'Left' &
-
 # Keepassx
 keepassx &
 
@@ -43,9 +36,15 @@ pidgin &
 # Battery Icon Applet
 #cbatticon &
 
-#pamac-tray &
-#plank &
-# sbxkb &   # keyboard layout switcher for the tray
-
 # or if you want to keep a log, uncomment the below command and comment out the above command:
-exec /usr/bin/fluxbox -log ~/.fluxbox/log
+#exec /usr/bin/fluxbox -log ~/.fluxbox/log
+/usr/bin/fluxbox -log ~/.fluxbox/log &
+fbpid=$!
+
+sleep 1
+{
+  # Open two terminal windows
+  urxvt -title 'Right' &
+  urxvt -title 'Left' &
+}
+wait $fbpid

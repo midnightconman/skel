@@ -43,3 +43,6 @@
   [Deco]	{NORMAL}
   [Close]	{no}
 [end]
+[app] (name=Pidgin) (class=Pidgin)
+  [Workspace]	{3}
+[end]
