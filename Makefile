@@ -1,6 +1,6 @@
 
 ALL_LINKS := .Xresources .aliases .bash_profile .bashrc .dir_colors .dmenurc .dmrc .fluxbox .gtkrc-2.0 .sources .tmux.conf .vim .vimrc .xinitrc .xprofile .xscreensaver
-ALL_APPS := xorg-server xorg-apps xorg-xinit vim fluxbox xscreensaver docker rxvt-unicode cantarell-fonts compton feh keepassx ttf-dejavu ttf-inconsolata noto-fonts ttf-liberation pidgin tmux jq fakeroot dmenu
+ALL_APPS := xorg-server xorg-apps xorg-xinit vim fluxbox xscreensaver docker rxvt-unicode cantarell-fonts compton feh keepassx ttf-dejavu ttf-inconsolata noto-fonts ttf-liberation pidgin tmux jq fakeroot dmenu go
 ALL_REPOS := aur.archlinux.org golang.org google.golang.org gopkg.in k8s.io
 
 all: all-links all-repos install
