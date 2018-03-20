@@ -9,7 +9,7 @@
 xrdb -merge ~/.Xresources
 
 # Change displays to not mirrored
-xrandr --output DVI-1 --mode 1920x1200 --left-of DVI-0
+xrandr --output DP-6 --mode 1920x1200 --left-of DP-4
 
 # Set a reasonable key delay and rate
 xset r rate 170 55
@@ -20,8 +20,7 @@ xscreensaver -no-splash &
 #/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Wallpaper Setter
-#nitrogen --restore &
-feh --bg-scale ~/.flux/backgrounds/Manjaro_ST3_one.png
+feh --bg-scale ~/.fluxbox/backgrounds/Manjaro_ST3_one.png
 compton &
 
 # Network Manager
@@ -29,7 +28,7 @@ compton &
 
 # Pulse Audio
 #pulseaudio &
-pa-applet &
+#pa-applet &
 
 # Open two terminal windows
 urxvt -title 'Right' &
@@ -40,9 +39,6 @@ keepassx &
 
 # Pidgin
 pidgin &
-
-# Clipboard Manager Applet
-#clipit &
 
 # Battery Icon Applet
 #cbatticon &
