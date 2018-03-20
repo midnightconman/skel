@@ -39,6 +39,7 @@ rm-repo:
 
 install:
 	@pacman -S $(ALL_APPS)
+	@echo "Please install AUR packages manually, current packages are 'google-chrome' and 'dropbox'"
 
 clean:
 	@echo "please run 'make rm-all-links' or 'make rm-all-repos' to clean-up"
