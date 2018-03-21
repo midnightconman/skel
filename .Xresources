@@ -2,7 +2,7 @@ XTerm*background: #ffffff
 XTerm*foreground: #1f1f1f
 XTerm*reverseVideo: on
 !XTerm*faceName: Terminus:size=11:antialias=true
-XTerm*faceName:xft:Inconsolata-g:size=11:antialias=true:style=regular
+XTerm*faceName:xft:Inconsolata\\-g:size=9:antialias=true:style=regular
 XTerm*selectToClipboard: true
 XTerm*termName: xterm-256color
 
@@ -19,7 +19,7 @@ Xft.rgba: rgb
 !!!!!!!!!!!!!!!!!!!!
 
 !URxvt.font:xft:Terminus:size=11:antialias=true:style=regular
-URxvt.font:xft:Inconsolata-g:size=11:antialias=true:style=regular
+URxvt.font:xft:Inconsolata\\-g:size=9:antialias=true:style=regular
 URxvt.boldFont:
 URxvt.letterSpace: -1
 URxvt.reverseVideo: true
