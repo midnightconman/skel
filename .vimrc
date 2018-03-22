@@ -3,6 +3,7 @@
 filetype plugin indent on
 syntax on
 
+set t_BE=
 set t_Co=256
 colorscheme crayon
 

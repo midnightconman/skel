@@ -31,8 +31,8 @@ export GID=$( id -g )
 
 ###### SSH Agent ######
 ##### SSH_Agent ENV Variables #####
-SSH_AUTH_SOCK=/tmp/ssh-Bf4EdgGyL0vf/agent.3875; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=3876; export SSH_AGENT_PID;
+SSH_AUTH_SOCK=/tmp/ssh-Q5SXfWnUSkBD/agent.1627; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1628; export SSH_AGENT_PID;
 
 ###### Bash History ######
 HISTFILESIZE=4000000
@@ -45,10 +45,6 @@ then
   #bind '"\e[1~":"\eOH"'
   #bind '"\e[4~":"\eOF"'
 fi
-
-alias ls='ls --color=auto'
-alias l='ls -l'
-alias x='exit'
 
 #Use VI commands on command line.
 set -o vi
