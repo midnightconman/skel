@@ -1,4 +1,7 @@
 
+"Enable pathogen
+execute pathogen#infect()
+
 "Enable syntax highliting
 filetype plugin indent on
 syntax on
