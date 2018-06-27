@@ -31,8 +31,8 @@ export GID=$( id -g )
 
 ###### SSH Agent ######
 ##### SSH_Agent ENV Variables #####
-SSH_AUTH_SOCK=/tmp/ssh-Q5SXfWnUSkBD/agent.1627; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=1628; export SSH_AGENT_PID;
+SSH_AUTH_SOCK=/tmp/ssh-YYqvgLAa2o1t/agent.1801; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=1802; export SSH_AGENT_PID;
 
 ###### Bash History ######
 HISTFILESIZE=4000000
@@ -42,6 +42,7 @@ export HISTSIZE HISTFILSIZE
 if [ "x${TMUX}" != 'x' ]
 then
   export TERM='screen-256color'
+  export DISPLAY=":0"
   #bind '"\e[1~":"\eOH"'
   #bind '"\e[4~":"\eOF"'
 fi
