@@ -34,7 +34,7 @@ keepassx &
 pidgin &
 
 # Battery Icon Applet
-#cbatticon &
+cbatticon &
 
 # or if you want to keep a log, uncomment the below command and comment out the above command:
 #exec /usr/bin/fluxbox -log ~/.fluxbox/log
