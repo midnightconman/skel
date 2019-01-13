@@ -8,7 +8,7 @@
 xrdb -merge ~/.Xresources
 
 # Change displays to not mirrored
-xrandr --output DP-6 --mode 1920x1200 --left-of DP-4
+#xrandr --output DP-6 --mode 1920x1200 --left-of DP-4
 
 # Set a reasonable key delay and rate
 xset r rate 170 55
@@ -25,7 +25,7 @@ compton &
 
 # Pulse Audio
 #pulseaudio &
-#pa-applet &
+pa-applet &
 
 # Keepassx
 keepassx &
@@ -44,7 +44,7 @@ fbpid=$!
 sleep 1
 {
   # Open two terminal windows
-  urxvt -title 'Right' &
+  #urxvt -title 'Right' &
   urxvt -title 'Left' &
 }
 wait $fbpid
