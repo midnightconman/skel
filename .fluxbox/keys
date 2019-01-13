@@ -131,6 +131,6 @@ Control Mod1 l :ExecCommand xscreensaver-command -lock
 Mod4 1 :ExecCommand echo -n "$( date +%Y%m%d%H%S )" | xsel --primary
 
 ## Sounds / Speakers
-F10 :ExecCommand amixer sset Master toggle
+F10 :ExecCommand amixer -D pulse set Master 1+ toggle
 F11 :ExecCommand amixer set Master 5%-
 F12 :ExecCommand amixer set Master 5%+
