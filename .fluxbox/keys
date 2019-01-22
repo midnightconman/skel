@@ -128,4 +128,5 @@ Mod4 F12 :SendToWorkspace 12
 # Personal key bindings
 Control Mod1 l :ExecCommand xscreensaver-command -lock
 
-Mod4 1 :ExecCommand echo -n "$( date +%Y%m%d%H%S )" | xsel --primary
+Mod4 1 :ExecCommand echo -n "$( date +%Y%m%d%H%M%S )" | xsel --primary
+Mod4 2 :ExecCommand echo -n "$( date +%Y-%m-%d )" | xsel --primary
