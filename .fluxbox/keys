@@ -130,6 +130,10 @@ Control Mod1 l :ExecCommand xscreensaver-command -lock
 
 Mod4 1 :ExecCommand echo -n "$( date +%Y%m%d%H%S )" | xsel --primary
 
+## Brightness
+F5 :ExecCommand xbacklight -dec 10
+F6 :ExecCommand xbacklight -inc 10
+
 ## Sounds / Speakers
 F10 :ExecCommand amixer -D pulse set Master 1+ toggle
 F11 :ExecCommand amixer set Master 5%-
