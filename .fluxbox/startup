@@ -23,6 +23,9 @@ compton &
 # Network Manager
 #nm-applet &
 
+# Yabar Status Bar
+yabar -c ~/.config/yabar/yabar.conf &
+
 # Pulse Audio
 #pulseaudio &
 #pa-applet &
