@@ -1,0 +1,1 @@
+#alias skaffold='docker run -it --rm '
