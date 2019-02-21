@@ -11,7 +11,7 @@ xrdb -merge ~/.Xresources
 xrandr --output DP-6 --mode 1920x1200 --left-of DP-4
 
 # Set a reasonable key delay and rate
-xset r rate 170 55
+xset r rate 170 60
 
 # Run xscreensaver in the background
 xscreensaver -no-splash &
