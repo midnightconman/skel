@@ -1,1 +1,2 @@
-#alias skaffold='docker run -it --rm '
+alias ibazelt='ibazel --profile_dev=${HOME}/.cache/ibazel-profile.json test ...'
+alias ibazelb='ibazel --profile_dev=${HOME}/.cache/ibazel-profile.json test ...'
