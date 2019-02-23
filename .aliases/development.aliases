@@ -1,2 +1,2 @@
-alias ibazelt='ibazel --profile_dev=${HOME}/.cache/ibazel-profile.json test ...'
-alias ibazelb='ibazel --profile_dev=${HOME}/.cache/ibazel-profile.json test ...'
+alias ibazelt='ibazel --profile_dev=${HOME}/.cache/ibazel-profile.json test ... | grep -v "PASSED\|NO STATUS"'
+alias ibazelb='ibazel --profile_dev=${HOME}/.cache/ibazel-profile.json build ... | grep -v "PASSED\|NO STATUS"'
