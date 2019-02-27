@@ -1,0 +1,7 @@
+[push]
+  default = simple
+[user]
+  name = midnightconman
+  email = midnightconman@gmail.com
+[includeIf "gitdir:~/src/github.sie.sony.com"]
+    path = .gitconfig-sie
