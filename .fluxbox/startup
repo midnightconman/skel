@@ -23,9 +23,6 @@ compton &
 # Network Manager
 #nm-applet &
 
-# Yabar Status Bar
-yabar -c ~/.config/yabar/yabar.conf &
-
 # Pulse Audio
 #pulseaudio &
 #pa-applet &
@@ -38,6 +35,9 @@ pidgin &
 
 # Battery Icon Applet
 #cbatticon &
+
+# Yabar Status Bar
+yabar -c ~/.config/yabar/yabar.conf &
 
 # or if you want to keep a log, uncomment the below command and comment out the above command:
 #exec /usr/bin/fluxbox -log ~/.fluxbox/log
