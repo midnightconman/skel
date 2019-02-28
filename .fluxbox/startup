@@ -31,7 +31,7 @@ yabar -c ~/.config/yabar/yabar.conf &
 #pa-applet &
 
 # Keepassx
-keepassx &
+keepassx2 &
 
 # Pidgin
 pidgin &

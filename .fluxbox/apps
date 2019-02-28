@@ -12,17 +12,10 @@
   [Maximized]	{yes}
   [Close]	{no}
 [end]
-[app] (name=keepassx) (class=Keepassx) (title=KeePassX.*Password Manager)
+[app] (name=keepassx2) (class=Keepassx2)
   [Workspace]	{3}
   [Head]	{2}
-  [Dimensions]	{52% 49%}
-  [Position]	(UPPERLEFT)	{43% 44%}
-  [Deco]	{NORMAL}
-  [Close]	{no}
-[end]
-[app] (name=keepassx) (class=Keepassx) (title!=KeePassX.*Password Manager)
-  [Workspace]	{3}
-  [Head]	{2}
+  [Dimensions]	{60% 56%}
   [Position]	(CENTER)	{20% 20%}
   [Deco]	{NORMAL}
   [Close]	{no}
