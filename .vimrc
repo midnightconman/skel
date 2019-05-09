@@ -1,7 +1,4 @@
 
-"Enable pathogen
-execute pathogen#infect()
-
 "Enable syntax highliting
 filetype plugin indent on
 syntax on
@@ -13,6 +10,9 @@ colorscheme crayon
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+"Quicker gitgutter updates
+set updatetime=300
 
 " go specific settings:
 autocmd FileType go set tabstop=4
