@@ -1,0 +1,7 @@
+[Service]
+Environment=DISPLAY=:0
+ExecStart=/bin/yabar -c /home/jcampbell/.config/yabar/yabar.conf
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
