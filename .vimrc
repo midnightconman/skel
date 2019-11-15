@@ -1,4 +1,6 @@
 
+set viminfo='1000,<1000,s500
+
 "Enable syntax highliting
 filetype plugin indent on
 syntax on
