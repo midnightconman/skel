@@ -3,5 +3,16 @@
 [user]
   name = midnightconman
   email = midnightconman@gmail.com
-[includeIf "gitdir:~/src/github.sie.sony.com"]
-  path = .gitconfig-sie
+[pull]
+  ff = only
+[filter "lfs"]
+  process = git-lfs filter-process
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+[http]
+  cookiefile = abc
+
+###
+# work related includes below here
+###

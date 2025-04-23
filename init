@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# TODO(midnightconman): fix recursive linking for these directories
+function links() {
+local _links="
+        .Xresources
+        .aliases
+        .bash_profile
+        .bashrc
+        .dir_colors
+        .dmenurc
+        .dmrc
+        .fluxbox
+        .gtkrc-2.0
+        .sources
+        .tmux.conf
+        .vim
+        .vimrc
+        .xinitrc
+        .xprofile
+      "
+
+  for i in ${_links} ;  do ln -fs $(pwd)/${i} ~/${i} ; done
+}
+
+links
