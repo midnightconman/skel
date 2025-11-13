@@ -1,0 +1,9 @@
+bazelisk 1.27.0
+github-cli 2.83.1
+helm 3.19.1
+jq 1.8.1
+kind 0.30.0
+kubectl 1.34.2
+pulumi 3.207.0
+ripgrep 15.1.0
+yq 4.48.1
