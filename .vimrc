@@ -6,11 +6,15 @@ let g:go_code_completion_enabled = 0
 " Disable go fmt at file write
 "let g:go_fmt_autosave = 0
 
+" show go info in status bar automatically
+let g:go_auto_type_info = 1
+
 set viminfo='1000,<1000,s500
 
 "Enable syntax highliting
 filetype plugin indent on
 syntax on
+syntax enable
 
 set t_BE=
 set t_Co=256
@@ -33,6 +37,7 @@ augroup autoformat_settings
   "autocmd FileType dart AutoFormatBuffer dartfmt
   "autocmd FileType go AutoFormatBuffer gofmt
   "autocmd FileType gn AutoFormatBuffer gn
+  "autocmd FileType hcl AutoFormatBuffer js-beautify
   "autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
   "autocmd FileType java AutoFormatBuffer google-java-format
   "autocmd FileType python AutoFormatBuffer yapf
