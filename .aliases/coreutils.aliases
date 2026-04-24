@@ -1,2 +1,11 @@
-alias ls='ls -N --color=auto'
 alias l='ls -l'
+
+# OS specific aliases go here
+case $(uname -s) in
+	"Darwin")
+    alias ls='ls --color=auto'
+  ;;
+	"Linux")
+    alias ls='ls --literal --color=auto'
+  ;;
+esac
