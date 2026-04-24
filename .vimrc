@@ -1,5 +1,7 @@
 let g:go_code_completion_enabled = 0
-let g:go_gopls_enabled = 0
+
+" Don't disable gopls
+"let g:go_gopls_enabled = 0
 
 " Disable go fmt at file write
 "let g:go_fmt_autosave = 0
