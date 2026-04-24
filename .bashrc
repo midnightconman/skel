@@ -5,7 +5,7 @@ umask 027
 
 ###### Aliases ######
 
-# Add ALL alias files from .aliases 
+# Add ALL alias files from .aliases
 if [ -d $HOME/.aliases ]; then
   for i in $( find -H $HOME/.aliases -maxdepth 1 \( -type f -o -type l \) )
     do
@@ -29,10 +29,7 @@ PATH=$PATH:${GOPATH}/bin
 ###### Docker Stuff ######
 export GID=$( id -g )
 
-###### SSH Agent ######
-##### SSH_Agent ENV Variables #####
-SSH_AUTH_SOCK=/tmp/ssh-YYqvgLAa2o1t/agent.1801; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=1802; export SSH_AGENT_PID;
+source ~/.sources/ssh_agent.sh
 
 ###### Bash History ######
 HISTFILESIZE=4000000
