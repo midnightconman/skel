@@ -1,0 +1,3 @@
+# ollama
+export OLLAMA_FLASH_ATTENTION=1
+export OLLAMA_HOST=0.0.0.0
