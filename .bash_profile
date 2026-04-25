@@ -1,4 +1,4 @@
-_PATH=$PATH
+_PATH="~/.hishtory:$PATH"
 
 case $(uname -s) in
 	"Darwin") _PATH="$HOME/.local/bin:/opt/homebrew/bin:$_PATH" ;;
