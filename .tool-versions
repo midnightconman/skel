@@ -10,3 +10,6 @@ python 3.12.12
 ripgrep 15.1.0
 tilt 0.35.2
 yq 4.48.1
+dive 0.13.1
+awscli 2.34.50
+1password-cli 2.35.0
