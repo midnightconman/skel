@@ -1,6 +1,7 @@
 alias act='act --container-architecture linux/amd64 --github-instance=github.sie.sony.com'
 alias gitb='git branch'
 alias gitco='git checkout'
+alias gitcoh='git checkout $( git symbolic-ref refs/remotes/origin/HEAD --short | cut -d'/' -f2 )'
 alias gitdh='git diff HEAD'
 alias gitfu='git fetch upstream ; git rebase upstream/master'
 alias gitp='git pull'
