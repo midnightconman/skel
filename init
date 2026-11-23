@@ -23,4 +23,17 @@ local _links="
   for i in ${_links} ;  do ln -fs $(pwd)/${i} ~/${i} ; done
 }
 
+function go_install() {
+local _pkgs="
+        github.com/asdf-vm/asdf/cmd/asdf@v0.20.2
+        sigs.k8s.io/aws-iam-authenticator/cmd/aws-iam-authenticator@v0.7.24
+        github.com/google/go-containerregistry/cmd/crane@v0.19.1
+        golang.org/x/tools/gopls@v0.22.0
+      "
+
+  for i in ${_pkgs} ;  do go install ; done
+}
+
 links
+
+go_install
