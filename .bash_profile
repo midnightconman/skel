@@ -1,13 +1,13 @@
-_PATH="~/.hishtory:$PATH"
+PATH="$HOME/.local/bin:$HOME/bin:$HOME/.hishtory:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
 
 case $(uname -s) in
-	"Darwin") _PATH="$HOME/.local/bin:/opt/homebrew/bin:$_PATH" ;;
+	"Darwin") PATH="$PATH:/opt/homebrew/bin" ;;
 	"Linux") echo ;;
 esac
 
-_PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:~/bin:$_PATH"
+PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-export PATH=$_PATH
+export PATH
 
 if [ -e $HOME/.bashrc ]; then
   . $HOME/.bashrc
