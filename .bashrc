@@ -24,7 +24,6 @@ fi
 
 ###### Golang Related ######
 export GOPATH=~
-PATH=$PATH:${GOPATH}/bin
 
 ###### Docker Stuff ######
 export GID=$( id -g )
