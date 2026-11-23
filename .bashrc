@@ -22,9 +22,6 @@ if [ -d $HOME/.sources ]; then
       done
 fi
 
-###### Golang Related ######
-export GOPATH=~
-
 ###### Docker Stuff ######
 export GID=$( id -g )
 
